@@ -101,7 +101,7 @@ projects_df_final = pd.DataFrame(
 
 department_names = ["Audit", "Consulting", "Tax", "Advisory", "Corporate Finance"]
 ratings = np.random.uniform(3.5, 5.0, size=5).round(1)
-budgets_departments = np.random.randint(200_000, 1_000_000, size=5)
+budgets_departments = np.random.randint(200_000, 300_000, size=5)
 best_employee_ids = np.random.choice(employee_ids, size=5, replace=False)
 
 departments_df_final = pd.DataFrame(
