@@ -1,3 +1,5 @@
+*topics covered: creating a SAS data set from external files;
+
 libname ad_data '/home/u63805938/sasuser.v94/Project';
 proc import
 datafile='/home/u63805938/sasuser.v94/Project/employees.csv'
